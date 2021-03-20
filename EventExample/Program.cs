@@ -21,5 +21,12 @@ namespace EventExample
         /// 账单金额
         /// </summary>
         public double Bill { get; set; }
+        /// <summary>
+        /// 付账
+        /// </summary>
+        public void PayTheBill()
+        {
+
+        }
     }
 }
