@@ -12,21 +12,19 @@ namespace EventExample
         {
         }
     }
-    /// <summary>
-    /// 顾客类
-    /// </summary>
+
     public class Customer
     {
         /// <summary>
         /// 账单金额
         /// </summary>
-        public double Bill { get; set; }
+        public string Bill { get; set; }
         /// <summary>
-        /// 付账
+        /// 支付账单
         /// </summary>
         public void PayTheBill()
         {
-
+            Console.WriteLine($"付了{this.Bill}元钱");
         }
     }
 }
