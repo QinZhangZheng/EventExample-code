@@ -17,6 +17,9 @@ namespace EventExample
     /// </summary>
     public class Customer
     {
-
+        /// <summary>
+        /// 账单金额
+        /// </summary>
+        public double Bill { get; set; }
     }
 }
